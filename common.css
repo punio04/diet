@@ -1,0 +1,74 @@
+/*既存css*/
+body {
+  font-family: "Noto Sans JP", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+  font-size: 13px;
+  line-height: 160%;
+  color: #434343;
+  background-color: #ffffff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.common_bg-paleorange {
+  background: #F0F7EA;
+  padding: 180px 0 40px 0;
+  height: auto;
+}
+
+.common_color-deeporange {
+  color: #359467;
+}
+
+.common_num-list__item::marker {
+  color: #f39800;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.common-all_inner-1000 {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.common-all_mb-20 {
+  margin-bottom: 20px;
+}
+
+.common-all_mb-100 {
+  margin-bottom: 130px;
+}
+
+.common-all_pb-30 {
+  padding-bottom: 30px;
+}
+
+.common-all_flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+
+  .common-all_mb-100 {
+    margin-bottom: 40px;
+  }
+
+  .common-all_ptb-80 {
+    padding-top: 40px;
+    padding-bottom: 5px;
+  }
+
+  body.p_top .gray_base:before {
+    border-bottom: 2px solid #BBCC99;
+    padding-top: 45px;
+  }
+
+  body.p_top .gray_base .sec_ttl {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 20px;
+    border-bottom: 1px solid #cccccc;
+  }
+}

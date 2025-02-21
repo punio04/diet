@@ -1,0 +1,126 @@
+.trouble {
+  overflow: hidden;
+}
+
+.solution__item {
+  position: relative;
+  z-index: 1;
+  padding: 50px 0 50px 50px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.solution__item::after {
+  content: "";
+  width: calc((100vw - 1000px) / 2 + 1000px);
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.solution__left {
+  width: 50%;
+}
+
+.solution__right {
+  width: 59%;
+  position: relative;
+}
+
+.solution__item-reverse {
+  flex-direction: row-reverse;
+  padding: 50px 50px 50px 0;
+}
+
+.solution__item-reverse::after {
+  left: auto;
+  right: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.solution__heading-m {
+  position: relative;
+  font-weight: bold;
+  font-size: 140%;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.solution__sutitle {
+  color: #f39800;
+  font-size: 150%;
+  position: absolute;
+  top: -10px;
+  font-weight: bold;
+}
+
+.solution__sutitle-reverse {
+  right: 20px;
+}
+
+.solution__number {
+  font-size: 450%;
+  background: linear-gradient(90deg, #48b574 0%, #b8db5a 100%);
+  color: transparent;
+  font-weight: bolder;
+  -webkit-background-clip: text;
+  font-family: "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+
+.solution__heading-m-strong {
+  font-size: 180%;
+  display: block;
+}
+
+.solution-text-area__text {
+  font-size: 125%;
+  line-height: 1.7;
+}
+
+.solution-figure-area {
+  width: 80%;
+  position: absolute;
+  top: -30%;
+  left: 20%;
+}
+
+.solution-figure-area-reverse {
+  left: 0px;
+  top: 30%;
+}
+
+@media (max-width: 768px) {
+
+  .solution__item {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .solution__item::after {
+    display: none;
+  }
+
+  .solution__left {
+    width: 100%;
+  }
+
+  .solution__right {
+    width: 100%;
+  }
+
+  .solution-figure-area {
+    position: static;
+    width: 100%;
+  }
+
+  .solution__sutitle {
+    position: static;
+    font-size: 100%;
+    top: inherit;
+    margin-bottom: 20px;
+  }
+}
