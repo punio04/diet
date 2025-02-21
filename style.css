@@ -1877,6 +1877,17 @@ body {
     margin-bottom: -4px;
     line-height: 1.25;
   }
+
+  body.p_top .gray_base .sec_ttl {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0px 20px;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .sp_f18 {
+    font-size: 1.6rem;
+  }
 }
 
 
