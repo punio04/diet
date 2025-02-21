@@ -1845,6 +1845,38 @@ body {
     width: 100%;
     margin: 0 auto;
   }
+
+  .c-title__jp {
+    font-size: 20px;
+  }
+
+  .l-inner {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .c-title__jp>strong {
+    font-size: 20px;
+  }
+
+  .p-support__title-wrapper {
+    padding-top: 53px;
+  }
+
+  .solution-text-area__text {
+    font-size: 1rem;
+    width: 260px;
+    line-height: 1.7;
+    margin: 20px auto;
+  }
+
+  .heading {
+    font-size: 28px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    line-height: 1.25;
+  }
 }
 
 
