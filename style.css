@@ -1840,6 +1840,11 @@ body {
     font-size: 160%;
     display: block;
   }
+
+  .solution__right {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 

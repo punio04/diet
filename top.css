@@ -114,9 +114,9 @@
     margin: 0 auto;
   }
 
-  .solution-figure-area {
-    position: static;
-    width: 100%;
+  .solution__right {
+    width: 60%;
+    margin: 0 auto;
   }
 
   .solution__sutitle {
@@ -124,5 +124,21 @@
     font-size: 100%;
     top: inherit;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .solution__item {
+    display: block;
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+  }
+
+  .solution-figure-area {
+    position: static;
+    width: 100%;
   }
 }
