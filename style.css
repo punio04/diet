@@ -294,7 +294,7 @@ body {
   content: "";
   left: 50%;
   position: absolute;
-  top: -1;
+  top: 0;
   translate: -50% 0;
   width: 360px;
   z-index: 1;
