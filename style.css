@@ -1763,6 +1763,11 @@ body {
 
 @media only screen and (max-width: 767px) {
 
+  .p-support:after {
+    background-color: initial;
+    height: initial;
+  }
+
   .p-issues {
     background-color: #f7f7f5;
     padding-top: 45px;
@@ -1818,7 +1823,24 @@ body {
 
 
 
+@media (max-width: 425px) {
+  .solution__right {
+    width: 100%;
+    margin: 0 auto;
+  }
 
+  .solution__item {
+    display: block;
+    background-color: #fff;
+    padding: 30px 15px 20px 15px;
+    text-align: center;
+  }
+
+  .solution__heading-m-strong {
+    font-size: 160%;
+    display: block;
+  }
+}
 
 
 

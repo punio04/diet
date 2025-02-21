@@ -97,7 +97,8 @@
   .solution__item {
     display: block;
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
+    text-align: center;
   }
 
   .solution__item::after {
@@ -109,7 +110,8 @@
   }
 
   .solution__right {
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
   }
 
   .solution-figure-area {
