@@ -1793,23 +1793,23 @@ body {
   }
 
   p.p-about__text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7;
   }
 
   .solution-text-area__text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7;
   }
 
   .txt_m {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7;
   }
 
   .price-plan .price-plan__notice p {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7;
   }
 

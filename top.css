@@ -141,4 +141,18 @@
     position: static;
     width: 100%;
   }
+
+  .solution__heading-m-strong {
+    font-size: 155%;
+    display: block;
+  }
+
+  .solution__right {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .common-all_pb-30 {
+    padding-bottom: 20px;
+  }
 }
